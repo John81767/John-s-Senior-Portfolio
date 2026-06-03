@@ -1,0 +1,93 @@
+
+html{
+   scroll-behavior: smooth;
+}
+
+
+body {
+    text-align: center;
+    background-attachment: fixed; /* Text scrolls over bg */
+    background-color: #496b4f;
+    color: #000000; 
+    font-family:Cambria;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    color: rgba(255, 255, 255, 1); 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f90; 
+    background-color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+main {
+    margin: 0 auto;
+    width: 69%; /* using a measure = absolute size */
+    /* height: 200px; */
+    padding: 20px; /* padding top, bottom, right or left */
+    border-radius: 12px 24px; /* rounded corners */
+    text-align: center;
+}
+
+nav {
+    font-family:Georgia;
+    background-color: rgb(31, 8, 137);
+    padding: 15px;
+    text-align: center;
+    border-bottom: 5px  rgb(31, 8, 137);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+h1 {
+    font-family:Georgia;
+    font-size: 5em;
+    margin-bottom: 0;
+}
+
+h2{
+    font-family:Georgia;
+}
+
+hr {
+    margin-top: 0;
+    color: black;
+}
+
+p {
+    font-family:Georgia;
+    margin-bottom: 25;
+    margin-top: 25;
+}
+
+.imgspace {
+    margin-bottom: 15;
+}
+
+.imgspace2 {
+    margin-bottom: 15;
+    background-color: rgba(255, 255, 255, 1);
+    display: inline-block;
+}
